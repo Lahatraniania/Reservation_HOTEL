@@ -1,0 +1,47 @@
+# ============================================================
+# BACKEND - Python / Django
+# ============================================================
+__pycache__/
+*.py[cod]
+*.so
+venv/
+env/
+ENV/
+.venv/
+*.log
+db.sqlite3
+staticfiles/
+
+# Variables d'environnement (SECRETS)
+.env
+.env.local
+backend/.env
+frontend/.env
+
+# ============================================================
+# FRONTEND - React / Node.js
+# ============================================================
+node_modules/
+frontend/node_modules/
+frontend/build/
+frontend/coverage/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ============================================================
+# FICHIERS PERSONNELS
+# ============================================================
+Doc1.docx
+pour la ReservationHotle.txt
+*.docx
+
+# ============================================================
+# IDE / SYSTÈME
+# ============================================================
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+desktop.ini
